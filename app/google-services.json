@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877209923087",
+    "project_id": "fridge-be529",
+    "storage_bucket": "fridge-be529.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877209923087:android:b9f410e804015caecafd7a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877209923087-b30lnggu02bid3e02taavqejpojlt0cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVf2tHXLunpBJTnc9PhXslXgXF4xkFH0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877209923087-b30lnggu02bid3e02taavqejpojlt0cl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

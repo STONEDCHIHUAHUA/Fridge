@@ -1,0 +1,819 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-48:12
+MERGED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/42abd3cab78c9101198b490dd2ceeb24/transformed/ui-tooling-1.3.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/cd8a48e56a306e3c93cb132703ce2f0e/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f5547a01ed93d2eafda2d24ba44b1ef7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e88c9f2fdf3f68fa5af2f82efd976e38/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.material:material:1.8.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/9cb5cb4317e28f3c3bf3f1dcd1368fa6/transformed/material-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1ebd633c110e9f8070c2cd63774a47e5/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3687e46c792b5c31bbfbd75b155dbb2a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a6fb410d4622709477cd5a4a72f27f4f/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c77ed51873d9e16b2c36bb126549f26a/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/094311dcdb0411bddedae315536e5334/transformed/recyclerview-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3f3cbffb0c92951e8396060e6322e35d/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0dff768fdb9d2b77adda207d01e8079e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c09692ab6b1f8c7346957202f8dc66f8/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/65da8f9c2f888d89e7e221412d9c4ab0/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ee9f412b8d829726c35b1ffc181b224e/transformed/play-services-measurement-sdk-21.2.2/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.compose.material3:material3:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3dc0e3d7d1380d69070773338df26c21/transformed/material3-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/438de7af0b6fc8295a6f953b094342fe/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/88473519107c8e066368913e73d7c7bf/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/73c8ce2c2142e5c072402e26dc2b5e38/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a185dc97ad48588dc2168fc1c6a98cbf/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/8d4fbfd5fff1576a0c614f8b19c62c36/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c294fa5912313bf52da940f74820fec2/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6d1c68966a8c32a86a9ad926ef48ba00/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/de13b97fc2b9b4933fe6770d5647f6e2/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1b9be3c16377a57d7ba8b868efb9d636/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/73e4d9bf787cf0f87c080730ae987cea/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/797e301453b581994d3323c2c8bc8e3e/transformed/material-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/085852b9171dfcb5dabb801aed88ced7/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/329f61d8c6df8b2c56cefee3d4548a9c/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4cdc9665ebf6ca165f7bd8fef6ef8e44/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b22fda885aab7184ffab4ec9a0d21b8e/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/003e4a69d002f5092a1ec0cfb63ee9c8/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/faeb1d3a3e55da9349bc1b1486a02585/transformed/material-ripple-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/cd49380398febec7f1445d393c1255e6/transformed/foundation-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-text:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/d2b383f59142401be7c7febe09dcd442/transformed/ui-text-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7153e97b106c7dd52c7aa1056dfd2c4b/transformed/ui-graphics-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/9fb4440ba5b92432b3caf8a46010c01b/transformed/ui-tooling-preview-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ba7ec0ef4e117b9b76677f82e5c4aef9/transformed/runtime-saveable-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/98438a4b69da8f1edf5016fa5c7b4d13/transformed/animation-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/67af2f6c804a8097e60bd76c995987d3/transformed/foundation-layout-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/250ffcaccd44e5c61437161f92012110/transformed/animation-core-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-core:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/02522341a5121265e775ab3b3d27ea3d/transformed/material-icons-core-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-unit:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/07fd9898ff9ba043d617035a0b0c2b24/transformed/ui-unit-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-geometry:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7e4ee7837f79af10f23ac68fe932d570/transformed/ui-geometry-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-data:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/96eaa0e1649fe263d8af0fc748e32d78/transformed/ui-tooling-data-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/bce0372a6167bfb156a9ec44959747ac/transformed/runtime-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/08789f40a8c8ea6d53ff957a7405d5d8/transformed/recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/679e6637863ee6f5615d7d59d5841ce0/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a32d5c7c0d66af0bf7199e5875352c9c/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b42b26d7e631c09130bdf95d280cefe9/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5460856aa238f19b664d8dd3be58925a/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/acee1b441d270c34d060f6d2a021e77e/transformed/integrity-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a562fee228b1ee83ed02537ce2cbf0b0/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f96773916d85b855caaf8fc6ad18f5e0/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/047f061559c59c9cbf79429a514099da/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/94fcb568c727c80aefb1715d7590946a/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5881caa312bd0991f76cf54513e5994f/transformed/play-services-measurement-base-21.2.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b945b98e519aae004fcaeeb51d727010/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/fec14b3564dc42dae2946367a965a8eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/bc6b2c31388ed8579f04db49d44b4289/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.7.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1255b7954e86fee7b2ed0ffc50288a35/transformed/activity-1.7.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.7.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3749508444986b4fb02393ef19e8e845/transformed/activity-ktx-1.7.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.7.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ae4abc0c01164b5674c22fbff4715264/transformed/activity-compose-1.7.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/038e60e9b037e08656a22c8e6593a485/transformed/ui-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b226357f7020c895fc23bf6e0503483a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0b916ba8973b1e6f48a2aeaab675e6ee/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1388304799c33295ba20228cefd4a3cd/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/d22a1b9774d811a513b342161bb4a41a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/8fccad0db5302b3be15cc8a43be31583/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7534d6068741522e7eb588ebc55f23f5/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/d979fc986f3e80a29f67104710dafd1a/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3103053715d36e3fb3b1834e0b6eeca/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/2fd05d30e474d9cf23b13b71e0864d5e/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4b654c3b3aafd8f6f58aa8499f39843d/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/92922bac15de0a5855883cbb68ede801/transformed/core-ktx-1.10.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/773cbacbfc4cba02be069764ad72f9fe/transformed/ui-util-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e6742bb551914224bea71c8498b21249/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/9e12686bc57ee2ef707127639655a4e3/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f796d64a715dbbc1925a4d77237b13ad/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4bbcfd7a5f4ffe0ea737d6703afc51ad/transformed/firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f2f2f957e7ed099fb63f38185800a317/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b19128dfe08de69c3509480d7cb37325/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4ebcdbf8ff91fd7c48f156351b342eaa/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a0a36e30d766051904da028c5c6babe4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/8a7417cdabe2d74a6ad854a866f9a3c9/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/324e6bf47ffa1df19a201252e0843591/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6219f49b16c999f50cde9621384c8ae6/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/fcd655748e7ead7282ab044a1888b026/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3e05c77c6f3d9cb47a4983010094eb35/transformed/grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/2c523fb04dc8b980e2ab0bc50e270401/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-48:12
+	package
+		INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-48:12
+		INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-48:12
+		INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-48:12
+		INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:5:5-46:19
+MERGED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/42abd3cab78c9101198b490dd2ceeb24/transformed/ui-tooling-1.3.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/42abd3cab78c9101198b490dd2ceeb24/transformed/ui-tooling-1.3.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/cd8a48e56a306e3c93cb132703ce2f0e/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/cd8a48e56a306e3c93cb132703ce2f0e/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f5547a01ed93d2eafda2d24ba44b1ef7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f5547a01ed93d2eafda2d24ba44b1ef7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e88c9f2fdf3f68fa5af2f82efd976e38/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e88c9f2fdf3f68fa5af2f82efd976e38/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.android.material:material:1.8.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/9cb5cb4317e28f3c3bf3f1dcd1368fa6/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.8.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/9cb5cb4317e28f3c3bf3f1dcd1368fa6/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1ebd633c110e9f8070c2cd63774a47e5/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1ebd633c110e9f8070c2cd63774a47e5/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3f3cbffb0c92951e8396060e6322e35d/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3f3cbffb0c92951e8396060e6322e35d/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0dff768fdb9d2b77adda207d01e8079e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0dff768fdb9d2b77adda207d01e8079e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c09692ab6b1f8c7346957202f8dc66f8/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c09692ab6b1f8c7346957202f8dc66f8/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/65da8f9c2f888d89e7e221412d9c4ab0/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/65da8f9c2f888d89e7e221412d9c4ab0/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ee9f412b8d829726c35b1ffc181b224e/transformed/play-services-measurement-sdk-21.2.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ee9f412b8d829726c35b1ffc181b224e/transformed/play-services-measurement-sdk-21.2.2/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/73c8ce2c2142e5c072402e26dc2b5e38/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/73c8ce2c2142e5c072402e26dc2b5e38/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6d1c68966a8c32a86a9ad926ef48ba00/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6d1c68966a8c32a86a9ad926ef48ba00/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/679e6637863ee6f5615d7d59d5841ce0/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/679e6637863ee6f5615d7d59d5841ce0/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5460856aa238f19b664d8dd3be58925a/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5460856aa238f19b664d8dd3be58925a/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/acee1b441d270c34d060f6d2a021e77e/transformed/integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/acee1b441d270c34d060f6d2a021e77e/transformed/integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f96773916d85b855caaf8fc6ad18f5e0/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f96773916d85b855caaf8fc6ad18f5e0/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/047f061559c59c9cbf79429a514099da/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/047f061559c59c9cbf79429a514099da/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5881caa312bd0991f76cf54513e5994f/transformed/play-services-measurement-base-21.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5881caa312bd0991f76cf54513e5994f/transformed/play-services-measurement-base-21.2.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b945b98e519aae004fcaeeb51d727010/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b945b98e519aae004fcaeeb51d727010/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/fec14b3564dc42dae2946367a965a8eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/fec14b3564dc42dae2946367a965a8eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b19128dfe08de69c3509480d7cb37325/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b19128dfe08de69c3509480d7cb37325/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a0a36e30d766051904da028c5c6babe4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a0a36e30d766051904da028c5c6babe4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:8:9-54
+	android:roundIcon
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:11:9-54
+	tools:targetApi
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:14:9-29
+	android:icon
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:13:9-51
+	android:dataExtractionRules
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:7:9-65
+activity#com.example.myapplication.MainActivity
+ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:15:9-25:20
+	android:label
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:18:13-45
+	android:exported
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:19:13-55
+	android:name
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.example.myapplication.LoginActivity
+ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:26:9-31:20
+	android:label
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:29:13-43
+	android:exported
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:28:13-36
+	android:theme
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:30:13-55
+	android:name
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:27:13-42
+activity#com.example.myapplication.RegisterActivity
+ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:33:9-38:20
+	android:label
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:36:13-43
+	android:exported
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:35:13-36
+	android:theme
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:37:13-55
+	android:name
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:34:13-45
+activity#com.example.myapplication.HomeActivity
+ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:40:9-45:20
+	android:label
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:43:13-43
+	android:exported
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:42:13-36
+	android:theme
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:44:13-55
+	android:name
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:41:13-41
+uses-sdk
+INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+MERGED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/42abd3cab78c9101198b490dd2ceeb24/transformed/ui-tooling-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/42abd3cab78c9101198b490dd2ceeb24/transformed/ui-tooling-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/cd8a48e56a306e3c93cb132703ce2f0e/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/cd8a48e56a306e3c93cb132703ce2f0e/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f5547a01ed93d2eafda2d24ba44b1ef7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f5547a01ed93d2eafda2d24ba44b1ef7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e88c9f2fdf3f68fa5af2f82efd976e38/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e88c9f2fdf3f68fa5af2f82efd976e38/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.8.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/9cb5cb4317e28f3c3bf3f1dcd1368fa6/transformed/material-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.8.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/9cb5cb4317e28f3c3bf3f1dcd1368fa6/transformed/material-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1ebd633c110e9f8070c2cd63774a47e5/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1ebd633c110e9f8070c2cd63774a47e5/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3687e46c792b5c31bbfbd75b155dbb2a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3687e46c792b5c31bbfbd75b155dbb2a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a6fb410d4622709477cd5a4a72f27f4f/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a6fb410d4622709477cd5a4a72f27f4f/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c77ed51873d9e16b2c36bb126549f26a/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c77ed51873d9e16b2c36bb126549f26a/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/094311dcdb0411bddedae315536e5334/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/094311dcdb0411bddedae315536e5334/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3f3cbffb0c92951e8396060e6322e35d/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3f3cbffb0c92951e8396060e6322e35d/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0dff768fdb9d2b77adda207d01e8079e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0dff768fdb9d2b77adda207d01e8079e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c09692ab6b1f8c7346957202f8dc66f8/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c09692ab6b1f8c7346957202f8dc66f8/transformed/firebase-analytics-21.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/65da8f9c2f888d89e7e221412d9c4ab0/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/65da8f9c2f888d89e7e221412d9c4ab0/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ee9f412b8d829726c35b1ffc181b224e/transformed/play-services-measurement-sdk-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ee9f412b8d829726c35b1ffc181b224e/transformed/play-services-measurement-sdk-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3dc0e3d7d1380d69070773338df26c21/transformed/material3-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3dc0e3d7d1380d69070773338df26c21/transformed/material3-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/438de7af0b6fc8295a6f953b094342fe/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/438de7af0b6fc8295a6f953b094342fe/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/88473519107c8e066368913e73d7c7bf/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/88473519107c8e066368913e73d7c7bf/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/73c8ce2c2142e5c072402e26dc2b5e38/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/73c8ce2c2142e5c072402e26dc2b5e38/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a185dc97ad48588dc2168fc1c6a98cbf/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a185dc97ad48588dc2168fc1c6a98cbf/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/8d4fbfd5fff1576a0c614f8b19c62c36/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/8d4fbfd5fff1576a0c614f8b19c62c36/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c294fa5912313bf52da940f74820fec2/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c294fa5912313bf52da940f74820fec2/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6d1c68966a8c32a86a9ad926ef48ba00/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6d1c68966a8c32a86a9ad926ef48ba00/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/de13b97fc2b9b4933fe6770d5647f6e2/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/de13b97fc2b9b4933fe6770d5647f6e2/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1b9be3c16377a57d7ba8b868efb9d636/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1b9be3c16377a57d7ba8b868efb9d636/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/73e4d9bf787cf0f87c080730ae987cea/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/73e4d9bf787cf0f87c080730ae987cea/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/797e301453b581994d3323c2c8bc8e3e/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/797e301453b581994d3323c2c8bc8e3e/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/085852b9171dfcb5dabb801aed88ced7/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/085852b9171dfcb5dabb801aed88ced7/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/329f61d8c6df8b2c56cefee3d4548a9c/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/329f61d8c6df8b2c56cefee3d4548a9c/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4cdc9665ebf6ca165f7bd8fef6ef8e44/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4cdc9665ebf6ca165f7bd8fef6ef8e44/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b22fda885aab7184ffab4ec9a0d21b8e/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b22fda885aab7184ffab4ec9a0d21b8e/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/003e4a69d002f5092a1ec0cfb63ee9c8/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/003e4a69d002f5092a1ec0cfb63ee9c8/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/faeb1d3a3e55da9349bc1b1486a02585/transformed/material-ripple-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/faeb1d3a3e55da9349bc1b1486a02585/transformed/material-ripple-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/cd49380398febec7f1445d393c1255e6/transformed/foundation-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/cd49380398febec7f1445d393c1255e6/transformed/foundation-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/d2b383f59142401be7c7febe09dcd442/transformed/ui-text-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/d2b383f59142401be7c7febe09dcd442/transformed/ui-text-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7153e97b106c7dd52c7aa1056dfd2c4b/transformed/ui-graphics-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7153e97b106c7dd52c7aa1056dfd2c4b/transformed/ui-graphics-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/9fb4440ba5b92432b3caf8a46010c01b/transformed/ui-tooling-preview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/9fb4440ba5b92432b3caf8a46010c01b/transformed/ui-tooling-preview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ba7ec0ef4e117b9b76677f82e5c4aef9/transformed/runtime-saveable-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ba7ec0ef4e117b9b76677f82e5c4aef9/transformed/runtime-saveable-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/98438a4b69da8f1edf5016fa5c7b4d13/transformed/animation-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/98438a4b69da8f1edf5016fa5c7b4d13/transformed/animation-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/67af2f6c804a8097e60bd76c995987d3/transformed/foundation-layout-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/67af2f6c804a8097e60bd76c995987d3/transformed/foundation-layout-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/250ffcaccd44e5c61437161f92012110/transformed/animation-core-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/250ffcaccd44e5c61437161f92012110/transformed/animation-core-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/02522341a5121265e775ab3b3d27ea3d/transformed/material-icons-core-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/02522341a5121265e775ab3b3d27ea3d/transformed/material-icons-core-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/07fd9898ff9ba043d617035a0b0c2b24/transformed/ui-unit-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/07fd9898ff9ba043d617035a0b0c2b24/transformed/ui-unit-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7e4ee7837f79af10f23ac68fe932d570/transformed/ui-geometry-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7e4ee7837f79af10f23ac68fe932d570/transformed/ui-geometry-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/96eaa0e1649fe263d8af0fc748e32d78/transformed/ui-tooling-data-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/96eaa0e1649fe263d8af0fc748e32d78/transformed/ui-tooling-data-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/bce0372a6167bfb156a9ec44959747ac/transformed/runtime-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/bce0372a6167bfb156a9ec44959747ac/transformed/runtime-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/08789f40a8c8ea6d53ff957a7405d5d8/transformed/recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/08789f40a8c8ea6d53ff957a7405d5d8/transformed/recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/679e6637863ee6f5615d7d59d5841ce0/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/679e6637863ee6f5615d7d59d5841ce0/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a32d5c7c0d66af0bf7199e5875352c9c/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a32d5c7c0d66af0bf7199e5875352c9c/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b42b26d7e631c09130bdf95d280cefe9/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b42b26d7e631c09130bdf95d280cefe9/transformed/play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5460856aa238f19b664d8dd3be58925a/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5460856aa238f19b664d8dd3be58925a/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/acee1b441d270c34d060f6d2a021e77e/transformed/integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/acee1b441d270c34d060f6d2a021e77e/transformed/integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a562fee228b1ee83ed02537ce2cbf0b0/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a562fee228b1ee83ed02537ce2cbf0b0/transformed/firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f96773916d85b855caaf8fc6ad18f5e0/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f96773916d85b855caaf8fc6ad18f5e0/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/047f061559c59c9cbf79429a514099da/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/047f061559c59c9cbf79429a514099da/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/94fcb568c727c80aefb1715d7590946a/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/94fcb568c727c80aefb1715d7590946a/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5881caa312bd0991f76cf54513e5994f/transformed/play-services-measurement-base-21.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5881caa312bd0991f76cf54513e5994f/transformed/play-services-measurement-base-21.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b945b98e519aae004fcaeeb51d727010/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b945b98e519aae004fcaeeb51d727010/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/fec14b3564dc42dae2946367a965a8eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/fec14b3564dc42dae2946367a965a8eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/bc6b2c31388ed8579f04db49d44b4289/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/bc6b2c31388ed8579f04db49d44b4289/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.7.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1255b7954e86fee7b2ed0ffc50288a35/transformed/activity-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1255b7954e86fee7b2ed0ffc50288a35/transformed/activity-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3749508444986b4fb02393ef19e8e845/transformed/activity-ktx-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3749508444986b4fb02393ef19e8e845/transformed/activity-ktx-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ae4abc0c01164b5674c22fbff4715264/transformed/activity-compose-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ae4abc0c01164b5674c22fbff4715264/transformed/activity-compose-1.7.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/038e60e9b037e08656a22c8e6593a485/transformed/ui-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/038e60e9b037e08656a22c8e6593a485/transformed/ui-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b226357f7020c895fc23bf6e0503483a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b226357f7020c895fc23bf6e0503483a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0b916ba8973b1e6f48a2aeaab675e6ee/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0b916ba8973b1e6f48a2aeaab675e6ee/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1388304799c33295ba20228cefd4a3cd/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1388304799c33295ba20228cefd4a3cd/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/d22a1b9774d811a513b342161bb4a41a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/d22a1b9774d811a513b342161bb4a41a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/8fccad0db5302b3be15cc8a43be31583/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/8fccad0db5302b3be15cc8a43be31583/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7534d6068741522e7eb588ebc55f23f5/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7534d6068741522e7eb588ebc55f23f5/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/d979fc986f3e80a29f67104710dafd1a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/d979fc986f3e80a29f67104710dafd1a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3103053715d36e3fb3b1834e0b6eeca/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3103053715d36e3fb3b1834e0b6eeca/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/2fd05d30e474d9cf23b13b71e0864d5e/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/2fd05d30e474d9cf23b13b71e0864d5e/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4b654c3b3aafd8f6f58aa8499f39843d/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4b654c3b3aafd8f6f58aa8499f39843d/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/92922bac15de0a5855883cbb68ede801/transformed/core-ktx-1.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/92922bac15de0a5855883cbb68ede801/transformed/core-ktx-1.10.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/773cbacbfc4cba02be069764ad72f9fe/transformed/ui-util-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/773cbacbfc4cba02be069764ad72f9fe/transformed/ui-util-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e6742bb551914224bea71c8498b21249/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e6742bb551914224bea71c8498b21249/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/9e12686bc57ee2ef707127639655a4e3/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/9e12686bc57ee2ef707127639655a4e3/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f796d64a715dbbc1925a4d77237b13ad/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f796d64a715dbbc1925a4d77237b13ad/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4bbcfd7a5f4ffe0ea737d6703afc51ad/transformed/firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4bbcfd7a5f4ffe0ea737d6703afc51ad/transformed/firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f2f2f957e7ed099fb63f38185800a317/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f2f2f957e7ed099fb63f38185800a317/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b19128dfe08de69c3509480d7cb37325/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b19128dfe08de69c3509480d7cb37325/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4ebcdbf8ff91fd7c48f156351b342eaa/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4ebcdbf8ff91fd7c48f156351b342eaa/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a0a36e30d766051904da028c5c6babe4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a0a36e30d766051904da028c5c6babe4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/8a7417cdabe2d74a6ad854a866f9a3c9/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/8a7417cdabe2d74a6ad854a866f9a3c9/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/324e6bf47ffa1df19a201252e0843591/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/324e6bf47ffa1df19a201252e0843591/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6219f49b16c999f50cde9621384c8ae6/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6219f49b16c999f50cde9621384c8ae6/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/fcd655748e7ead7282ab044a1888b026/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/fcd655748e7ead7282ab044a1888b026/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3e05c77c6f3d9cb47a4983010094eb35/transformed/grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3e05c77c6f3d9cb47a4983010094eb35/transformed/grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/2c523fb04dc8b980e2ab0bc50e270401/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/2c523fb04dc8b980e2ab0bc50e270401/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+		ADDED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/WojciechFijalkowski/Downloads/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/42abd3cab78c9101198b490dd2ceeb24/transformed/ui-tooling-1.3.0/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/42abd3cab78c9101198b490dd2ceeb24/transformed/ui-tooling-1.3.0/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/42abd3cab78c9101198b490dd2ceeb24/transformed/ui-tooling-1.3.0/AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/cd8a48e56a306e3c93cb132703ce2f0e/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/cd8a48e56a306e3c93cb132703ce2f0e/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/cd8a48e56a306e3c93cb132703ce2f0e/transformed/ui-test-manifest-1.3.0/AndroidManifest.xml:24:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f5547a01ed93d2eafda2d24ba44b1ef7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e88c9f2fdf3f68fa5af2f82efd976e38/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e88c9f2fdf3f68fa5af2f82efd976e38/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3f3cbffb0c92951e8396060e6322e35d/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3f3cbffb0c92951e8396060e6322e35d/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0dff768fdb9d2b77adda207d01e8079e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0dff768fdb9d2b77adda207d01e8079e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f5547a01ed93d2eafda2d24ba44b1ef7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:13:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f5547a01ed93d2eafda2d24ba44b1ef7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:12:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f5547a01ed93d2eafda2d24ba44b1ef7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f5547a01ed93d2eafda2d24ba44b1ef7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f5547a01ed93d2eafda2d24ba44b1ef7/transformed/firebase-firestore-ktx-24.6.0/AndroidManifest.xml:15:17-126
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e88c9f2fdf3f68fa5af2f82efd976e38/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e88c9f2fdf3f68fa5af2f82efd976e38/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e88c9f2fdf3f68fa5af2f82efd976e38/transformed/firebase-analytics-ktx-21.2.2/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3f3cbffb0c92951e8396060e6322e35d/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3f3cbffb0c92951e8396060e6322e35d/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3f3cbffb0c92951e8396060e6322e35d/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:12:17-116
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0dff768fdb9d2b77adda207d01e8079e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0dff768fdb9d2b77adda207d01e8079e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/0dff768fdb9d2b77adda207d01e8079e/transformed/firebase-common-ktx-20.3.2/AndroidManifest.xml:15:17-113
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/08789f40a8c8ea6d53ff957a7405d5d8/transformed/recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/08789f40a8c8ea6d53ff957a7405d5d8/transformed/recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/94fcb568c727c80aefb1715d7590946a/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/94fcb568c727c80aefb1715d7590946a/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3e05c77c6f3d9cb47a4983010094eb35/transformed/grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/3e05c77c6f3d9cb47a4983010094eb35/transformed/grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/08789f40a8c8ea6d53ff957a7405d5d8/transformed/recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/08789f40a8c8ea6d53ff957a7405d5d8/transformed/recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/94fcb568c727c80aefb1715d7590946a/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/94fcb568c727c80aefb1715d7590946a/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:13:22-64
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.6.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b5f4a74e4153f66a6ddebc069fb0ae97/transformed/firebase-firestore-24.6.0/AndroidManifest.xml:20:17-111
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/b21dc0600beb3a484c31688250a5fd94/transformed/firebase-auth-22.0.0/AndroidManifest.xml:70:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/94fcb568c727c80aefb1715d7590946a/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/94fcb568c727c80aefb1715d7590946a/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/047f061559c59c9cbf79429a514099da/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/047f061559c59c9cbf79429a514099da/transformed/play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/94fcb568c727c80aefb1715d7590946a/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/94fcb568c727c80aefb1715d7590946a/transformed/play-services-measurement-sdk-api-21.2.2/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/873b4f6debff51557ed870a98e1f3cad/transformed/play-services-measurement-api-21.2.2/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/7f77eb8ddb245e99c7b5f5a810bb9ef4/transformed/firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/029162561925d052b6442491111f97b2/transformed/firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/f3204f8fb85f63f70db9955c3309076d/transformed/play-services-measurement-impl-21.2.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.2.2] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/286ae2561a2e944836eeb2b539f16c95/transformed/play-services-measurement-21.2.2/AndroidManifest.xml:40:13-87
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6d1c68966a8c32a86a9ad926ef48ba00/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6d1c68966a8c32a86a9ad926ef48ba00/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a0a36e30d766051904da028c5c6babe4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/a0a36e30d766051904da028c5c6babe4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/ed19e4394da49da240ac4045da0ab245/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6d1c68966a8c32a86a9ad926ef48ba00/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6d1c68966a8c32a86a9ad926ef48ba00/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/6d1c68966a8c32a86a9ad926ef48ba00/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5460856aa238f19b664d8dd3be58925a/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5460856aa238f19b664d8dd3be58925a/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5460856aa238f19b664d8dd3be58925a/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/5460856aa238f19b664d8dd3be58925a/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/fec14b3564dc42dae2946367a965a8eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/fec14b3564dc42dae2946367a965a8eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/fec14b3564dc42dae2946367a965a8eb/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:23:9-81
+permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.myapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/c1126a95a7df92aec0e6b9208de7ecb8/transformed/core-1.10.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/05f17562bafd573e8a36ae43a91d8398/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
