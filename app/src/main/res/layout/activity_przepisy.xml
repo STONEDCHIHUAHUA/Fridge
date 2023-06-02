@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <SearchView
-        android:id="@+id/searchFridge"
+        android:id="@+id/searchRecipe"
         android:layout_width="194dp"
         android:layout_height="48dp"
         android:layout_marginTop="108dp"
@@ -23,17 +23,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchFridge"
+        app:layout_constraintTop_toBottomOf="@+id/searchRecipe"
         tools:listitem="@android:layout/simple_list_item_activated_1" />
 
     <Button
-        android:id="@+id/RecipeButton"
+        android:id="@+id/FridgeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Przepisy"
+        android:text="Lodówka"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/searchFridge" />
+        app:layout_constraintTop_toTopOf="@+id/searchRecipe" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,8 +20,8 @@ class HomeActivity : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        listView = findViewById(R.id.listView)
-        searchView = findViewById(R.id.searchView)
+        listView = findViewById(R.id.listFridge)
+        searchView = findViewById(R.id.searchFridge)
         itemList = mutableListOf("Item 1", "Item 2", "Item 3")
         adapter = ListAdapter(this, itemList)
 
