@@ -32,7 +32,6 @@ class LoginActivity : Activity() {
                 Toast.makeText(this, "Podaj email i haslo", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
-
             mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
@@ -40,7 +39,7 @@ class LoginActivity : Activity() {
                         val user = FirebaseAuth.getInstance().currentUser
                         val UserID = user?.email.toString()
                         val intent = Intent(this, HomeActivity::class.java)
-                        intent.putExtra("UserID",UserID)
+                        intent.putExtra("UserID", UserID)
                         startActivity(intent)
                         finish()
                     } else {

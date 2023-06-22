@@ -7,13 +7,21 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="add">Add</string>
     <string name="app_name">My Application</string>
+    <string name="back">Back</string>
     <string name="default_web_client_id" translatable="false">877209923087-b30lnggu02bid3e02taavqejpojlt0cl.apps.googleusercontent.com</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="enter_the_key">Enter the key</string>
+    <string name="enter_the_updated_item">Enter the updated item</string>
+    <string name="enter_the_value">Enter the value</string>
     <string name="gcm_defaultSenderId" translatable="false">877209923087</string>
     <string name="google_api_key" translatable="false">AIzaSyBVf2tHXLunpBJTnc9PhXslXgXF4xkFH0M</string>
     <string name="google_app_id" translatable="false">1:877209923087:android:b9f410e804015caecafd7a</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBVf2tHXLunpBJTnc9PhXslXgXF4xkFH0M</string>
     <string name="google_storage_bucket" translatable="false">fridge-be529.appspot.com</string>
+    <string name="key">Key</string>
     <string name="project_id" translatable="false">fridge-be529</string>
+    <string name="value">Value</string>
     <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>
