@@ -12,16 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.MyApplication">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".LoginActivity"
             android:exported="true"
@@ -42,6 +43,14 @@
             android:label="My Application"
             android:theme="@style/Theme.AppCompat">
         </activity>
+
+        <activity
+            android:name=".PrzepisyActivity"
+            android:exported="true"
+            android:label="My Application"
+            android:theme="@style/Theme.AppCompat">
+        </activity>
+
     </application>
 
 </manifest>

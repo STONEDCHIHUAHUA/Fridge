@@ -3062,7 +3062,6 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
-id Add
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
@@ -3239,6 +3238,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawerLayout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -3351,6 +3351,9 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id menuButton
+id menu_home
+id menu_przepisy
 id message
 id middle
 id mini
@@ -3385,6 +3388,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id navigationView
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3709,6 +3713,7 @@ layout abc_tooltip
 layout activity_home
 layout activity_login
 layout activity_main
+layout activity_przepisy
 layout activity_register
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -3792,6 +3797,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3926,6 +3932,8 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
+string home
+string homeItem
 string icon_content_description
 string in_progress
 string indeterminate
@@ -3968,6 +3976,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string menu
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -4039,9 +4048,14 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string podaj_adres_email
+string podaj_haslo
 string project_id
+string przepisy
+string przepisyItem
 string range_end
 string range_start
+string register
 string search_bar_search
 string search_menu_title
 string searchbar_scrolling_view_behavior

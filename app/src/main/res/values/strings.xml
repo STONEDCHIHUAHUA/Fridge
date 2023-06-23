@@ -11,4 +11,9 @@
     <string name="podaj_haslo">Podaj hasło</string>
     <string name="register">Register</string>
     <string name="podaj_adres_email">Podaj adres email</string>
+    <string name="przepisy">Przepisy</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="homeItem">homeItem</string>
+    <string name="przepisyItem">przepisyItem</string>
 </resources>

@@ -20,8 +20,16 @@
     <string name="google_app_id" translatable="false">1:877209923087:android:b9f410e804015caecafd7a</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBVf2tHXLunpBJTnc9PhXslXgXF4xkFH0M</string>
     <string name="google_storage_bucket" translatable="false">fridge-be529.appspot.com</string>
+    <string name="home">Home</string>
+    <string name="homeItem">homeItem</string>
     <string name="key">Key</string>
+    <string name="menu">Menu</string>
+    <string name="podaj_adres_email">Podaj adres email</string>
+    <string name="podaj_haslo">Podaj hasło</string>
     <string name="project_id" translatable="false">fridge-be529</string>
+    <string name="przepisy">Przepisy</string>
+    <string name="przepisyItem">przepisyItem</string>
+    <string name="register">Register</string>
     <string name="value">Value</string>
     <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar"/>
 </resources>

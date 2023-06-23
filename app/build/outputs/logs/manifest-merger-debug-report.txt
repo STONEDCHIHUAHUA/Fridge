@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-47:12
+ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-56:12
 MERGED from [androidx.compose.material3:material3:1.1.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/4a740759d1c279ac0202f90eca2cbdc9/transformed/material3-1.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.9.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1b9a9697553f43cec9bfd1b556709c9a/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/2434a31aa53fbb7f1ca298b16c81d0b2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -104,27 +104,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/WojciechFijalkowsk
 MERGED from [androidx.print:print:1.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/e6dd6b4cf37773d4d58f00c1f0b29028/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [io.grpc:grpc-android:1.52.1] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1a19c2dc72f8dee2e87abb9a74f4bd05/transformed/grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/40daec3452846cc7195ee4baa6f9b6b6/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-47:12
-INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-56:12
 	package
 		INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-47:12
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-56:12
 		INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-47:12
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-56:12
 		INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-47:12
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:1-56:12
 		INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:5:5-45:19
+ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:5:5-54:19
 MERGED from [com.google.android.material:material:1.9.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1b9a9697553f43cec9bfd1b556709c9a/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/1b9a9697553f43cec9bfd1b556709c9a/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/WojciechFijalkowski/.gradle/caches/transforms-3/2434a31aa53fbb7f1ca298b16c81d0b2/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -212,53 +212,63 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/WojciechFijalkowski/
 	android:dataExtractionRules
 		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:7:9-65
 activity#com.example.myapplication.MainActivity
-ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:15:9-24:20
+ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:16:9-24:20
 	android:exported
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:18:13-36
 	android:theme
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:18:13-55
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:19:13-55
 	android:name
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
 ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:22:27-74
 activity#com.example.myapplication.LoginActivity
-ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:25:9-30:20
+ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:26:9-31:20
 	android:label
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:28:13-43
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:29:13-43
 	android:exported
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:27:13-36
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:28:13-36
 	android:theme
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:29:13-55
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:30:13-55
 	android:name
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:26:13-42
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:27:13-42
 activity#com.example.myapplication.RegisterActivity
-ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:32:9-37:20
+ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:33:9-38:20
 	android:label
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:35:13-43
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:36:13-43
 	android:exported
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:34:13-36
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:35:13-36
 	android:theme
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:36:13-55
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:37:13-55
 	android:name
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:33:13-45
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:34:13-45
 activity#com.example.myapplication.HomeActivity
-ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:39:9-44:20
+ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:40:9-45:20
 	android:label
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:42:13-43
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:43:13-43
 	android:exported
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:41:13-36
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:42:13-36
 	android:theme
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:43:13-51
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:44:13-51
 	android:name
-		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:40:13-41
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:41:13-41
+activity#com.example.myapplication.PrzepisyActivity
+ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:47:9-52:20
+	android:label
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:50:13-43
+	android:exported
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:49:13-36
+	android:theme
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:51:13-51
+	android:name
+		ADDED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml:48:13-45
 uses-sdk
 INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/WojciechFijalkowski/AndroidStudioProjects/Co-dzis-na-obiad-Firebase/app/src/main/AndroidManifest.xml

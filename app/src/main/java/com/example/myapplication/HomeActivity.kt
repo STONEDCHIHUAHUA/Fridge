@@ -10,7 +10,10 @@ import androidx.appcompat.app.AlertDialog
 import java.util.Locale
 import com.google.firebase.firestore.FirebaseFirestore
 import android.content.ContentValues.TAG
+import android.content.Intent
 import android.util.Log
+import androidx.drawerlayout.widget.DrawerLayout
+import com.google.android.material.navigation.NavigationView
 import com.google.firebase.firestore.FieldValue
 
 class HomeActivity : Activity() {
@@ -19,20 +22,53 @@ class HomeActivity : Activity() {
     private lateinit var searchView: SearchView
     private lateinit var itemList: MutableList<String>
     private lateinit var adapter: ListAdapter
-
+    private lateinit var drawerLayout: DrawerLayout
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+        drawerLayout = findViewById(R.id.drawerLayout)
 
         listView = findViewById(R.id.listView)
         searchView = findViewById(R.id.searchView)
         itemList = mutableListOf()
         adapter = ListAdapter(this, itemList)
         listView.adapter = adapter
-
-        val db: FirebaseFirestore = FirebaseFirestore.getInstance()
+        val navigationView: NavigationView = findViewById(R.id.navigationView)
         val bundle: Bundle? = intent.extras
         val userID = bundle!!.getString("UserID").toString()
+
+        // side menu
+        navigationView.setNavigationItemSelectedListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.menu_home -> {
+                    // Handle menu item 1 click
+                    val intent = Intent(this, HomeActivity::class.java)
+                    intent.putExtra("UserID", userID)
+                    startActivity(intent)
+                    true
+                }
+                R.id.menu_przepisy -> {
+                    // Handle menu item 2 click
+                    val intent = Intent(this, PrzepisyActivity::class.java)
+                    intent.putExtra("UserID", userID)
+                    startActivity(intent)
+                    true
+                }
+                else -> false
+            }
+        }
+
+        // Set up menu button click listener
+        val menuButton: Button = findViewById(R.id.menuButton)
+        menuButton.setOnClickListener {
+            if (drawerLayout.isDrawerOpen(navigationView)) {
+                drawerLayout.closeDrawer(navigationView)
+            } else {
+                drawerLayout.openDrawer(navigationView)
+            }
+        }
+
+        val db: FirebaseFirestore = FirebaseFirestore.getInstance()
         val docRef = db.collection("users").document(userID)
         docRef.get()
             .addOnSuccessListener { result ->
@@ -48,7 +84,7 @@ class HomeActivity : Activity() {
                 }
             }
             .addOnFailureListener { e ->
-                Log.e(TAG, "Error fetching document: ${e.message}")
+                Log.e(TAG, "Blad podczas pobierania danych: ${e.message}")
             }
 
         // Add item
@@ -62,9 +98,9 @@ class HomeActivity : Activity() {
 
             val alertDialogBuilder = AlertDialog.Builder(this)
             alertDialogBuilder.setView(addDialogView)
-            alertDialogBuilder.setTitle("Add Item")
+            alertDialogBuilder.setTitle("Dodaj produkt")
 
-            alertDialogBuilder.setPositiveButton("Add") { _, _ ->
+            alertDialogBuilder.setPositiveButton("Dodaj") { _, _ ->
                 val key = keyEditText.text.toString()
                 val value = valueEditText.text.toString()
                 val newItem = "$key: $value"
@@ -84,7 +120,7 @@ class HomeActivity : Activity() {
                     }
             }
 
-            alertDialogBuilder.setNegativeButton("Cancel") { dialog, _ ->
+            alertDialogBuilder.setNegativeButton("Anuluj") { dialog, _ ->
                 dialog.dismiss()
             }
 
@@ -110,9 +146,9 @@ class HomeActivity : Activity() {
 
             val alertDialogBuilder = AlertDialog.Builder(this)
             alertDialogBuilder.setView(editDialogView)
-            alertDialogBuilder.setTitle("Edit Item")
+            alertDialogBuilder.setTitle("Edytuj")
 
-            alertDialogBuilder.setPositiveButton("Update") { _, _ ->
+            alertDialogBuilder.setPositiveButton("Aktualizuj") { _, _ ->
                 val newKey = keyEditText.text.toString()
                 val newValue = valueEditText.text.toString()
                 val updatedItem = "$newKey: $newValue"
@@ -131,19 +167,19 @@ class HomeActivity : Activity() {
 
                 docRef.update(data as Map<String, Any>)
                     .addOnSuccessListener {
-                        Toast.makeText(this, "Item updated successfully!", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Zaktualizowano produkt", Toast.LENGTH_SHORT).show()
                     }
                     .addOnFailureListener {
-                        Toast.makeText(this, "Failed to update item.", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Blad aktualizacji produktu", Toast.LENGTH_SHORT).show()
                     }
             }
 
-            alertDialogBuilder.setNegativeButton("Cancel") { dialog, _ ->
+            alertDialogBuilder.setNegativeButton("Anuluj") { dialog, _ ->
                 dialog.dismiss()
             }
 
             // delete item
-            alertDialogBuilder.setNeutralButton("Delete") { dialog, _ ->
+            alertDialogBuilder.setNeutralButton("Usun") { _, _ ->
                 itemList.remove(currentItem)
                 adapter.notifyDataSetChanged()
 
@@ -153,10 +189,10 @@ class HomeActivity : Activity() {
 
                 docRef.update(updates)
                     .addOnSuccessListener {
-                        Toast.makeText(this, "Item deleted successfully!", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Produkt usuniety poprawnie", Toast.LENGTH_SHORT).show()
                     }
                     .addOnFailureListener {
-                        Toast.makeText(this, "Failed to delete item.", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Nie usunieto produktu", Toast.LENGTH_SHORT).show()
                     }
             }
 
