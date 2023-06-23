@@ -32,7 +32,7 @@ class PrzepisyActivity : Activity() {
 
         listView = findViewById(R.id.listView)
         searchView = findViewById(R.id.searchView)
-        itemList = mutableListOf("Spaghetti Carbonara",  "Pizza Margherita", "Piwko")
+        itemList = mutableListOf("spaghetti carbonara",  "pizza margherita", "piwko")
         adapter = ListAdapter(this, itemList)
         listView.adapter = adapter
         val navigationView: NavigationView = findViewById(R.id.navigationView)
@@ -89,7 +89,7 @@ class PrzepisyActivity : Activity() {
     ) : BaseAdapter(), Filterable {
 
         // Save a copy of the original itemList
-        val originalItemList: MutableList<String> = mutableListOf()
+        val originalItemList: MutableList<String> = itemList.toMutableList()
         private var filteredItemList: MutableList<String> = itemList
         private val inflater: LayoutInflater = LayoutInflater.from(context)
 
@@ -135,9 +135,10 @@ class PrzepisyActivity : Activity() {
                         val filteredList = originalItemList.filter { item ->
                             item.lowercase(Locale.ROOT).contains(query)
                         }.toMutableList()
-
-                        results.values = filteredList
-                        results.count = filteredList.size
+                        if (filteredList.size > 0) {
+                            results.values = filteredList
+                            results.count = filteredList.size
+                        }
                     }
 
                     return results
@@ -148,7 +149,9 @@ class PrzepisyActivity : Activity() {
                     if (results != null && results.count > 0) {
                         val filteredList = results.values as MutableList<String>
                         filteredItemList.addAll(filteredList)
-                    } else {
+                    } else if (results != null && results.count == 0){
+                        filteredItemList.addAll(mutableListOf())
+                    }else  {
                         filteredItemList.addAll(originalItemList)
                     }
                     notifyDataSetChanged()

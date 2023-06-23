@@ -16,4 +16,12 @@
     <string name="menu">Menu</string>
     <string name="homeItem">homeItem</string>
     <string name="przepisyItem">przepisyItem</string>
+    <string name="powt_rz_has_o">Powtórz hasło</string>
+    <string name="poka_has_o">Pokaż hasło</string>
+    <string name="zarejestruj">Zarejestruj</string>
+    <string name="zarejestruj1">Zarejestruj</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="zaloguj1">Zaloguj</string>
+    <string name="podaj_has_o">Podaj hasło</string>
+    <string name="podaj_adres_email1">Podaj adres email</string>
 </resources>

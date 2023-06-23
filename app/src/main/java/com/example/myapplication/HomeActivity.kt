@@ -35,7 +35,7 @@ class HomeActivity : Activity() {
         listView.adapter = adapter
         val navigationView: NavigationView = findViewById(R.id.navigationView)
         val bundle: Bundle? = intent.extras
-        val userID = bundle!!.getString("UserID").toString()
+        val userID = bundle?.getString("UserID").toString()
 
         // side menu
         navigationView.setNavigationItemSelectedListener { menuItem ->
@@ -105,7 +105,7 @@ class HomeActivity : Activity() {
                 val value = valueEditText.text.toString()
                 val newItem = "$key: $value"
                 itemList.add(newItem)
-                adapter.originalItemList.add(newItem) // Add to the originalItemList as well
+                adapter.originalItemList.add(newItem)
                 adapter.notifyDataSetChanged()
                 val data = mapOf(
                     key to value
@@ -155,19 +155,26 @@ class HomeActivity : Activity() {
                 itemList[position] = updatedItem
                 adapter.notifyDataSetChanged()
 
-                val data = mapOf(
+                mapOf(
                     newKey to newValue
                 )
                 val updates = mapOf(
                     keyValue[0] to FieldValue.delete(),
+                    newKey to newValue
                 )
 
                 docRef.update(updates)
-
-
-                docRef.update(data as Map<String, Any>)
                     .addOnSuccessListener {
                         Toast.makeText(this, "Zaktualizowano produkt", Toast.LENGTH_SHORT).show()
+
+                        adapter.originalItemList[position] = updatedItem
+
+                        val query = searchView.query.toString().lowercase(Locale.getDefault())
+                        adapter.filteredItemList = adapter.originalItemList.filter { item ->
+                            item.lowercase(Locale.ROOT).contains(query)
+                        }.toMutableList()
+
+                        adapter.notifyDataSetChanged()
                     }
                     .addOnFailureListener {
                         Toast.makeText(this, "Blad aktualizacji produktu", Toast.LENGTH_SHORT).show()
@@ -178,9 +185,11 @@ class HomeActivity : Activity() {
                 dialog.dismiss()
             }
 
+
             // delete item
             alertDialogBuilder.setNeutralButton("Usun") { _, _ ->
                 itemList.remove(currentItem)
+                adapter.originalItemList.remove(currentItem)
                 adapter.notifyDataSetChanged()
 
                 val updates = mapOf(
@@ -219,8 +228,8 @@ class HomeActivity : Activity() {
     ) : BaseAdapter(), Filterable {
 
         // Save a copy of the original itemList
-        val originalItemList: MutableList<String> = mutableListOf()
-        private var filteredItemList: MutableList<String> = itemList
+        val originalItemList: MutableList<String> = itemList.toMutableList()
+        var filteredItemList: MutableList<String> = itemList
         private val inflater: LayoutInflater = LayoutInflater.from(context)
 
         override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
@@ -265,9 +274,10 @@ class HomeActivity : Activity() {
                         val filteredList = originalItemList.filter { item ->
                             item.lowercase(Locale.ROOT).contains(query)
                         }.toMutableList()
-
-                        results.values = filteredList
-                        results.count = filteredList.size
+                        if (filteredList.size > 0) {
+                            results.values = filteredList
+                            results.count = filteredList.size
+                        }
                     }
 
                     return results
@@ -278,7 +288,9 @@ class HomeActivity : Activity() {
                     if (results != null && results.count > 0) {
                         val filteredList = results.values as MutableList<String>
                         filteredItemList.addAll(filteredList)
-                    } else {
+                    } else if (results != null && results.count == 0){
+                        filteredItemList.addAll(mutableListOf())
+                    }else  {
                         filteredItemList.addAll(originalItemList)
                     }
                     notifyDataSetChanged()
